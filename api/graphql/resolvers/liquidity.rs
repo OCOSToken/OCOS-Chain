@@ -98,4 +98,43 @@ impl LiquidityMutation {
             amount_in: input.amount_in,
             amount_out: 990_000_000,
             fee_paid: 3_000_000,
-            blo
+            block_number: 12_345_678,
+            tx_hash: "0xsometxhash".into(),
+        })
+    }
+
+    /// Stake LP tokens to a pool (farming)
+    async fn stake(&self, _ctx: &Context<'_>, input: StakeInput) -> Result<RewardInfo> {
+        Ok(RewardInfo {
+            address: input.address,
+            pool_id: input.pool_id,
+            staked: input.amount,
+            pending_rewards: 0,
+            last_reward_block: 12_345_680,
+        })
+    }
+
+    /// Unstake LP tokens and harvest rewards
+    async fn unstake(&self, _ctx: &Context<'_>, input: UnstakeInput) -> Result<RewardInfo> {
+        Ok(RewardInfo {
+            address: input.address,
+            pool_id: input.pool_id,
+            staked: 0,
+            pending_rewards: 100_000,
+            last_reward_block: 12_345_700,
+        })
+    }
+}
+
+// ---------- Example Types (should live in types.rs) -----------
+// pub struct Pool { ... }
+// pub struct Token { ... }
+// pub struct SwapInput { ... }
+// pub struct SwapReceipt { ... }
+// pub struct StakeInput { ... }
+// pub struct UnstakeInput { ... }
+// pub struct RewardInfo { ... }
+// pub struct OraclePrice { ... }
+// pub struct BridgeTransfer { ... }
+// pub type PoolId = u64; pub type OracleId = u64; pub type Address = String;
+// pub struct Pagination { ... }
