@@ -1,0 +1,26 @@
+/* ===============================
+   OCOS-Chain Dark Mode Overrides
+   =============================== */
+
+/* Only include if you need custom overrides beyond Tailwind or .dark token variables */
+body.dark,
+.dark body {
+  background: var(--color-background, #12161e);
+  color: var(--color-foreground, #e5e7ef);
+}
+
+.dark .bg-card { background: var(--color-card, #202434) !important; }
+.dark .text-muted-foreground { color: var(--color-muted, #282c3a) !important; }
+
+.dark .button,
+.dark .button--secondary,
+.dark .card {
+  box-shadow: none;
+}
+
+.dark ::selection {
+  background: var(--color-primary, #1b77e3);
+  color: #fff;
+}
+
+/* Add more overrides as needed for dark mode edge-cases */
