@@ -1,0 +1,79 @@
+/* ===============================
+   OCOS-Chain Theme Design Tokens
+   =============================== */
+
+/* 1. Root design tokens (light theme) */
+:root {
+  /* Brand colors */
+  --color-primary: #1b77e3;
+  --color-accent: #f2c744;
+  --color-danger: #dc2626;
+  --color-success: #14b889;
+  --color-warning: #f59e42;
+  --color-info: #42b0f5;
+
+  /* Grays & background */
+  --color-background: #f9fafe;
+  --color-card: #ffffff;
+  --color-foreground: #181c28;
+  --color-muted: #e5e8f1;
+  --color-border: #d3d6de;
+  --color-scrollbar: #dde2ee;
+
+  /* Typography */
+  --font-sans: 'Inter', 'Roboto', 'Arial', sans-serif;
+  --font-size-base: 16px;
+  --font-size-lg: 1.25rem;
+  --font-size-sm: 0.88rem;
+
+  /* Radius */
+  --radius-xs: 0.25rem;
+  --radius-sm: 0.375rem;
+  --radius: 0.75rem;
+  --radius-xl: 1.25rem;
+  --radius-full: 9999px;
+
+  /* Spacing */
+  --space-xs: 0.375rem;
+  --space-sm: 0.75rem;
+  --space-md: 1.25rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+
+  /* Shadows */
+  --shadow-xs: 0 2px 6px 0 rgba(25, 30, 58, 0.05);
+  --shadow-card: 0 4px 32px 0 rgba(25, 30, 58, 0.09);
+  --shadow-card-lg: 0 6px 40px 0 rgba(25, 30, 58, 0.14);
+
+  /* Transitions */
+  --transition-main: 0.18s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* 2. Dark mode tokens override */
+.dark {
+  --color-background: #12161e;
+  --color-card: #202434;
+  --color-foreground: #e5e7ef;
+  --color-muted: #282c3a;
+  --color-border: #262932;
+  --color-scrollbar: #232738;
+}
+
+/* 3. Usage example (for any component, global or utility) */
+/*
+.button-primary {
+  background: var(--color-primary);
+  color: #fff;
+  border-radius: var(--radius);
+  font-family: var(--font-sans);
+  box-shadow: var(--shadow-xs);
+  transition: background var(--transition-main);
+}
+*/
+
+/* 4. Utility classes (optional, you may use Tailwind utilities instead) */
+/*
+.bg-primary { background: var(--color-primary) !important; }
+.text-primary { color: var(--color-primary) !important; }
+.rounded-xl { border-radius: var(--radius-xl) !important; }
+*/
