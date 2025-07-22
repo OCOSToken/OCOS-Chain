@@ -1,0 +1,48 @@
+/* OCOS Dashboard Button Styles */
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.6em 1.3em;
+  border-radius: var(--radius);
+  background: var(--color-primary);
+  color: #fff;
+  border: none;
+  box-shadow: var(--shadow-xs);
+  cursor: pointer;
+  transition: background var(--transition-main), box-shadow var(--transition-main);
+}
+
+.button:hover,
+.button:focus {
+  background: var(--color-accent);
+  color: #222;
+  outline: none;
+  box-shadow: 0 0 0 2px var(--color-primary);
+}
+
+.button--secondary {
+  background: var(--color-card);
+  color: var(--color-primary);
+  border: 1.5px solid var(--color-primary);
+}
+
+.button--outline {
+  background: transparent;
+  color: var(--color-primary);
+  border: 1.5px solid var(--color-primary);
+}
+
+.button--danger {
+  background: var(--color-danger);
+  color: #fff;
+}
+
+.button:disabled,
+.button[aria-disabled="true"] {
+  opacity: 0.6;
+  pointer-events: none;
+}
