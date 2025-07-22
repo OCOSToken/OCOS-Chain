@@ -1,0 +1,39 @@
+/* OCOS Dashboard Card Styles */
+.card {
+  background: var(--color-card);
+  color: var(--color-foreground);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-card);
+  padding: var(--space-lg);
+  margin-bottom: var(--space-md);
+  border: 1px solid var(--color-border);
+  transition: box-shadow var(--transition-main), border-color var(--transition-main);
+}
+
+.card:hover,
+.card:focus-within {
+  box-shadow: var(--shadow-card-lg);
+  border-color: var(--color-primary);
+}
+
+.card--compact {
+  padding: var(--space-md);
+}
+
+.card__header {
+  font-weight: 700;
+  font-size: 1.18em;
+  margin-bottom: var(--space-sm);
+}
+
+.card__body {
+  font-size: 1rem;
+  margin-bottom: var(--space-sm);
+}
+
+.card__footer {
+  border-top: 1px solid var(--color-border);
+  padding-top: var(--space-sm);
+  font-size: 0.98em;
+  color: var(--color-muted);
+}
