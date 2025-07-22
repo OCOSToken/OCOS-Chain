@@ -1,0 +1,56 @@
+/* ==============================
+   OCOS-Chain Dashboard Fonts
+   ============================== */
+
+/* 1. Import Inter from Google Fonts (or self-host for production) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* 2. (Optional) Add custom font-face for branding */
+/*
+@font-face {
+  font-family: "OCOSBrand";
+  src: url("/fonts/OCOSBrand-Regular.woff2") format("woff2"),
+       url("/fonts/OCOSBrand-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+*/
+
+/* 3. System and Fallback Fonts */
+:root {
+  --font-sans: 'Inter', 'Roboto', 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  --font-mono: 'Fira Mono', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
+}
+
+/* 4. Base styles (usually in globals.css, but can reinforce here) */
+body {
+  font-family: var(--font-sans);
+  font-feature-settings: "calt", "liga", "kern";
+  font-weight: 400;
+  font-variant-ligatures: contextual;
+  letter-spacing: 0.01em;
+}
+
+/* 5. Headings and monospace utility classes */
+h1, h2, h3, h4, h5, h6, .heading {
+  font-family: var(--font-sans);
+  font-weight: 700;
+}
+
+code, pre, .font-mono {
+  font-family: var(--font-mono);
+  font-size: 0.97em;
+  background: var(--color-muted, #f3f4f8);
+  padding: 0.18em 0.36em;
+  border-radius: 0.25em;
+}
+
+/* 6. (Optional) Use OCOSBrand font for logo, hero, or special elements */
+/*
+.logo-text {
+  font-family: "OCOSBrand", var(--font-sans);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+*/
