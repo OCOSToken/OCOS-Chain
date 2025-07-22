@@ -1,0 +1,64 @@
+/* OCOS Dashboard Modal Styles */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(20, 24, 40, 0.58);
+  z-index: 99;
+  backdrop-filter: blur(2.5px);
+  animation: fadeInBackdrop 0.22s;
+}
+
+@keyframes fadeInBackdrop {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.modal {
+  background: var(--color-card);
+  color: var(--color-foreground);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-card-lg);
+  padding: var(--space-lg);
+  max-width: 32rem;
+  margin: 7vh auto;
+  position: relative;
+  z-index: 100;
+  animation: modalZoomIn 0.22s;
+}
+
+@keyframes modalZoomIn {
+  from { transform: scale(0.94); opacity: 0; }
+  to   { transform: scale(1); opacity: 1; }
+}
+
+.modal__header {
+  font-size: 1.18em;
+  font-weight: bold;
+  margin-bottom: var(--space-md);
+}
+
+.modal__body {
+  font-size: 1rem;
+  margin-bottom: var(--space-md);
+}
+
+.modal__footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--space-sm);
+}
+
+.modal__close {
+  position: absolute;
+  top: var(--space-md);
+  right: var(--space-md);
+  background: none;
+  border: none;
+  color: var(--color-muted);
+  font-size: 1.45em;
+  cursor: pointer;
+  transition: color var(--transition-main);
+}
+.modal__close:hover {
+  color: var(--color-primary);
+}
