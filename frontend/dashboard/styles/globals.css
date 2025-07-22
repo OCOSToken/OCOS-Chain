@@ -7,6 +7,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "./components/button.css";
+@import "./components/card.css";
+@import "./components/modal.css";
+
 /* 2. CSS Variables for Design Tokens (colors, radius, etc.) */
 :root {
   /* Brand colors */
