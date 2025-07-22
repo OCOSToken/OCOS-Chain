@@ -1,0 +1,35 @@
+/* ===============================
+   OCOS-Chain Dashboard Utilities
+   =============================== */
+
+/* Margin, padding, and flex helpers (if needed beyond Tailwind) */
+.mt-xs { margin-top: var(--space-xs) !important; }
+.mt-sm { margin-top: var(--space-sm) !important; }
+.mt-md { margin-top: var(--space-md) !important; }
+.mt-lg { margin-top: var(--space-lg) !important; }
+
+.pt-xs { padding-top: var(--space-xs) !important; }
+.pt-sm { padding-top: var(--space-sm) !important; }
+.pt-md { padding-top: var(--space-md) !important; }
+.pt-lg { padding-top: var(--space-lg) !important; }
+
+.flex-center { display: flex !important; align-items: center; justify-content: center; }
+
+.inline-block { display: inline-block !important; }
+.w-full { width: 100% !important; }
+.h-full { height: 100% !important; }
+
+/* Text helpers */
+.text-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.text-nowrap { white-space: nowrap !important; }
+
+/* Divider */
+.divider {
+  border: none;
+  border-top: 1px solid var(--color-border);
+  margin: var(--space-md) 0;
+}
