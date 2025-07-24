@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="180" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1b77e3"/>
+      <stop offset="1" stop-color="#f2c744"/>
+    </linearGradient>
+  </defs>
+  <!-- Abstract symbol: Clean, modern, universal -->
+  <circle cx="90" cy="90" r="85" fill="url(#g1)" stroke="#fff" stroke-width="8"/>
+  <ellipse cx="90" cy="90" rx="52" ry="52" fill="#fff" opacity="0.85"/>
+  <!-- Minimalist central dot for focus -->
+  <circle cx="90" cy="90" r="18" fill="#1b77e3" opacity="0.96"/>
+  <!-- Optional: Remove below for icon-only, or set project initials/text -->
+  <!--
+  <text x="90" y="112" text-anchor="middle" font-family="'Inter', Arial, sans-serif"
+        font-weight="700" font-size="38" fill="#1b77e3" letter-spacing="0.06em">
+    O
+  </text>
+  -->
+</svg>
