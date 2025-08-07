@@ -94,7 +94,7 @@ OCOS Chain – sadəcə texnologiya deyil, həyat fəlsəfəsidir. Sən artıq s
 
 ## 👤 Müəlliflər və Töhfəçilər
 
-- **Satoshi üslubunda vizioner komanda**
+- **OCOS Dev komandası**
 - Açıq mənbə koduna töhfə vermək üçün [CONTRIBUTING.md](./CONTRIBUTING.md) sənədini oxuyun.
 
 ---
