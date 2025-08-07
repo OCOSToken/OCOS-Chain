@@ -121,7 +121,7 @@ OCOS Chain – şüur, enerji və dəyər balansıdır.*
 - **Şəbəkə:** Binance Smart Chain (BEP-20 standartı)
 - **Simvol:** OCOS UK
 - **Sabit Dəyər:** Həmişə 47 USD
-- **Maksimum Təchizat:** 21,000,000 OCOS UK
+- **Maksimum Təchizat:** 1,000,000,000 OCOS UK
 - **Audit Statusu:** Müstəqil auditdən keçmiş və tam şəffaf
 
 ---
