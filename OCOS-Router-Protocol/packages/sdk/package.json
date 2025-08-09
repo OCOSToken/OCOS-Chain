@@ -1,0 +1,65 @@
+{
+  "name": "@ocos/orp-sdk",
+  "version": "0.1.0",
+  "description": "OCOS Router Protocol (ORP) TypeScript SDK: build and hash ORP cross-chain messages and integrate with EVM tooling.",
+  "license": "MIT",
+  "author": "OCOS",
+  "keywords": [
+    "ocos",
+    "orp",
+    "cross-chain",
+    "sdk",
+    "evm",
+    "solidity",
+    "viem",
+    "router",
+    "bridge"
+  ],
+  "homepage": "https://github.com/OCOSToken/OCOS-Router-Protocol/tree/main/packages/sdk",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OCOSToken/OCOS-Router-Protocol.git",
+    "directory": "packages/sdk"
+  },
+  "bugs": {
+    "url": "https://github.com/OCOSToken/OCOS-Router-Protocol/issues"
+  },
+  "type": "module",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rimraf dist || rm -rf dist",
+    "build": "tsc -p .",
+    "rebuild": "npm run clean && npm run build",
+    "typecheck": "tsc --noEmit -p .",
+    "lint": "echo \"(add eslint if desired)\"",
+    "format": "echo \"(add prettier if desired)\"",
+    "test": "echo \"(add vitest/jest if desired)\"",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "viem": "^2.9.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "rimraf": "^6.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
