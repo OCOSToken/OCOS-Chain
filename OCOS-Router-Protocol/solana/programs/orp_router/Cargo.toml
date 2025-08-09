@@ -1,0 +1,18 @@
+[package]
+name = "orp_router"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "orp_router"
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+borsh = "1.5.1"
+thiserror = "1.0"
+solana-program = "1.18.18"
+spl-token = { version = "4.0.0", features = ["no-entrypoint"] }
+spl-associated-token-account = { version = "3.0.2", features = ["no-entrypoint"] }
+
+[features]
+no-entrypoint = []
