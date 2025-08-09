@@ -1,0 +1,8 @@
+[workspace]
+members = ["programs/orp_router"]
+
+[profile.release]
+overflow-checks = true
+codegen-units = 1
+lto = true
+opt-level = 's'
