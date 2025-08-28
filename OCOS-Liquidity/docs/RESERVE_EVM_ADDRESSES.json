@@ -1,0 +1,31 @@
+{
+  "network": "bitcoin-mainnet",
+  "as_of": "2025-08-28T00:00:00Z",
+  "addresses": [
+    { "label": "Reserve-001", "address": "1Kkf1CPTryFdBY37WFeVxxnsLMSytXUMtQ" },
+    { "label": "Reserve-002", "address": "bc1qr55tea40n4h04a97p9my82a9v27grsusnk2qk9" },
+    { "label": "Reserve-003", "address": "bc1q9xfu42y3ne8jvch9vd075fn0tnz5gjckhjxhc7" },
+    { "label": "Reserve-004", "address": "bc1qnaw3zjyhqfznwl3vv8kljl87dvnv6m4yyp49uc" },
+    { "label": "Reserve-005", "address": "bc1q7xds624m70cwr54ee78xxskzmnp4e38y2u9sh8" },
+    { "label": "Reserve-006", "address": "39EjKqxGsRuWWgnB3HesKzGVYXLhVvt192" },
+    { "label": "Reserve-007", "address": "bc1qe92tnkrgay6t0cfz89kxnljvgm39kjr4whsh2v" },
+    { "label": "Reserve-008", "address": "bc1qsyptp96ap64hzsl93pt8w45tj24t6k9f7f2dnu" },
+    { "label": "Reserve-009", "address": "bc1q5gktky3jd54gp3zm68x2xynht38fnl39m785uw" },
+    { "label": "Reserve-010", "address": "1pvUseZJQDksrZFoSV1bvRib3asoh2uoK" },
+    { "label": "Reserve-011", "address": "bc1qe87d8cucu9286amccqd9mrydcgtlxp6tf7z8hk" },
+    { "label": "Reserve-012", "address": "bc1q90yyfmyttn60nwjs43tz74s34qpp6zyasfuy4t" },
+    { "label": "Reserve-013", "address": "bc1qch99hm4xj8fjpfedydh480mjuc6ke4qx9uhkju" },
+    { "label": "Reserve-014", "address": "1BS1Rbhd2DvZ6RV1csLGyt81YX4LoEPVdw" },
+    { "label": "Reserve-015", "address": "35sDZfbKLeQvX52bzZVJWVuh8uvT1z7ETS" },
+    { "label": "Reserve-016", "address": "36sKMB23AY5MqV3YzGS5sAKtH179gYhWdH" },
+    { "label": "Reserve-017", "address": "bc1qxadr485yyc4smdp20szwwtdugsvqwyw2x9yxy5h7ltk32fyrs4hs9sgkr7" },
+    { "label": "Reserve-018", "address": "bc1q2vnmzzqe8dsyu9jw25w20n8lrfnm8350shz9hv" },
+    { "label": "Reserve-019", "address": "bc1qsqkauqqt6qftss7pyhp4phn9yrprc4u2rz4du7" },
+    { "label": "Reserve-020", "address": "bc1qu6urq8mu44scrtcjkzm6u87an2lhpahvr2rnxg" },
+    { "label": "Reserve-021", "address": "bc1q7396sngyj2sunmen8cjn5ycxa3pmwuf955e3vl" },
+    { "label": "Reserve-022", "address": "bc1qgjh3at3j8cnzhmaa5k3vekrgdmusnj96cg5vsy" },
+    { "label": "Reserve-023", "address": "bc1qpkaumnpw2pz5xynfs6y9h3fgmuhjnzpp64vzhh" },
+    { "label": "Reserve-024", "address": "bc1qfxqe999dlxfyvnd56qgyzdr60c99d2qk095cz5" },
+    { "label": "Reserve-025", "address": "bc1qnadumuzssw9g80f4pqqga282ugtlmz2ff6weqy" }
+  ]
+}
