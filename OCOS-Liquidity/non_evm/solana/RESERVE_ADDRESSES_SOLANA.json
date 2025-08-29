@@ -1,0 +1,19 @@
+{
+  "network": "bitcoin-mainnet",
+  "as_of": "2025-08-29T00:00:00Z",
+  "chain": "Solana-like (non-EVM gateway use)",
+  "addresses": [
+    { "label": "SOL-Reserve-001", "address": "3GKiCg85nbvmN6wHDfV4sXcaHDfxn9w5hT" },
+    { "label": "SOL-Reserve-002", "address": "bc1q6n53469l6evqs05apy49pm7r0df0rxhv8cxndj" },
+    { "label": "SOL-Reserve-003", "address": "bc1qng4nps9ye7e5pfnd9hy687fygjgr3pq5xhsu4a" },
+    { "label": "SOL-Reserve-004", "address": "bc1qapn7vxns6g52xcleljfauwmfy46atz462drfenkvafs5flwmmaasgeavdw" },
+    { "label": "SOL-Reserve-005", "address": "bc1qvmvyka72lmwmh7m7465m4rvrytnjgkz03ry8n6" },
+    { "label": "SOL-Reserve-006", "address": "bc1q5067xvf70n668vsh7p5rxglpjws7jahw2vr8hu" },
+    { "label": "SOL-Reserve-007", "address": "bc1qr6ca6ve657wxx069z5g9gaw52gftd7sse3245a" }
+  ],
+  "attestation": {
+    "method": "ed25519-offchain-signature",
+    "pubkey_base58": "FILL_WITH_OCOS_SOL_AUTHORITY_PUBKEY",
+    "signature_base64": "FILL_AFTER_SIGN"
+  }
+}
