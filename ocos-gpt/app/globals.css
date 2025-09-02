@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0b0f14;
+  --card: #0f1720;
+}
+
+body {
+  background:
+    radial-gradient(1200px 800px at 70% -20%, #14202e 0%, #0b0f14 60%),
+    radial-gradient(1000px 700px at -10% 120%, #122432 0%, #0b0f14 60%);
+}
