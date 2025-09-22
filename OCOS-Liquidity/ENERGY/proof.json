@@ -1,0 +1,18 @@
+{
+  "token": "ENERGY",
+  "network": "bitcoin-mainnet",
+  "description": "ENERGY token backing proof — listed BTC addresses hold backing reserves.",
+  "timestamp_utc": "2025-09-22T12:00:00Z",
+  "commit_hash": "REPLACE_WITH_GIT_COMMIT_HASH",
+  "addresses": [
+    "bc1q8t9n02d0u8dg3lrp6vu4d2mdc5gkvntzjky6hv2w0tz532dkf23qanrha8",
+    "bc1q550ewd2kzfn6rd0yctsthqe9hp3fggcxrl4nad522fq4luasngqqknrxd7",
+    "1PPcoaWYzSupVkibtD3TwViyA1ewCnJQDe",
+    "bc1qhglqlqmr7gz8shxrlnw3a4weukjknrtxyn39k7tyzr64dsqsfchs043e34",
+    "bc1q00du3cfdkxzds7ra92x8znwackfjwyqm8h67f5mnu3fdjkn6vkkquewrqa",
+    "bc1qrzxwa7jlyf7he0dzcgyp4wz9qyzc7j7jlh3e02q6w33p9srh3cuqrr6vyh",
+    "bc1qyth7d84cmw7xgw0qf3027mqqz8q8j5rptejwt5cx5h5rxhng54gqn7a04k",
+    "bc1q7rnpap3j7nvahwxh2xjqtmuw0e0f8k05ltytys7lhsjsk6ye5p4sxl9s2v"
+  ],
+  "notes": "Provide on-chain evidence via block explorer APIs (blockstream.info suggested). Add PGP signature for extra assurance."
+}
