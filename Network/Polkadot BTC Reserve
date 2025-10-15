@@ -1,0 +1,26 @@
+[
+  {
+    "label": "user_1",
+    "bitcoin_address": "bc1qc8lwnuum09px6msvrd722zgag4zvmc4gwfcl55",
+    "format_hint": "Bech32 (P2WPKH/P2WSH)",
+    "notes": ""
+  },
+  {
+    "label": "user_2",
+    "bitcoin_address": "156ddrMkz6XgsohM2YSJmNJpMPcqEac5CP",
+    "format_hint": "Base58 (P2PKH)",
+    "notes": ""
+  },
+  {
+    "label": "user_3",
+    "bitcoin_address": "125WeXgyrE4beiEeQewoaXf4H9BL5RiDoP",
+    "format_hint": "Base58 (P2PKH)",
+    "notes": ""
+  },
+  {
+    "label": "user_4",
+    "bitcoin_address": "1EtX6pMGi5LuxEWqJfmvauGuzXqXt8qXZS",
+    "format_hint": "Base58 (P2PKH)",
+    "notes": ""
+  }
+]
