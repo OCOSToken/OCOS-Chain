@@ -1,0 +1,44 @@
+[
+  {
+    "label": "user_1",
+    "bitcoin_address": "bc1qy2ecud8uw64q8z73252umfufvt0slakx0cecxw",
+    "format_hint": "Bech32 (P2WPKH/P2WSH)",
+    "notes": "Polygon (MATIC) – Layer-2 integration"
+  },
+  {
+    "label": "user_2",
+    "bitcoin_address": "bc1prseelpfq8u675kfff3t2nus58pg2fmf5fqd400t4dec8f5tdsq3szwzh38",
+    "format_hint": "Bech32 (P2WPKH/P2WSH)",
+    "notes": "Polygon (MATIC) – Layer-2 integration"
+  },
+  {
+    "label": "user_3",
+    "bitcoin_address": "bc1q24eg6naf89s8whyny83uc4tdxzy2v9p7u7en8encwcg6yde4n0ss05m89z",
+    "format_hint": "Bech32 (P2WPKH/P2WSH)",
+    "notes": "Polygon (MATIC) – Layer-2 integration"
+  },
+  {
+    "label": "user_4",
+    "bitcoin_address": "bc1q9p6eaa8kty6q4hpfe2a2pdjvcemxlvtfet96chnc6qk4rqgw64nsgzf99z",
+    "format_hint": "Bech32 (P2WPKH/P2WSH)",
+    "notes": "Polygon (MATIC) – Layer-2 integration"
+  },
+  {
+    "label": "user_5",
+    "bitcoin_address": "17RW5bs5Bqm46jEPqTSH2z3c6qW616dBgs",
+    "format_hint": "Base58 (P2PKH)",
+    "notes": "Polygon (MATIC) – Layer-2 integration"
+  },
+  {
+    "label": "user_6",
+    "bitcoin_address": "bc1q0f7g9f9x3actqmdfkqs7cggl9qv7sdug09df7az89skq2yt0zztqalwkwx",
+    "format_hint": "Bech32 (P2WPKH/P2WSH)",
+    "notes": "Polygon (MATIC) – Layer-2 integration"
+  },
+  {
+    "label": "user_7",
+    "bitcoin_address": "bc1qt2xv0me805vnxrquk7h29pf9vuxzm53k8ey9n3eu6m9hzaldyn4q883at4",
+    "format_hint": "Bech32 (P2WPKH/P2WSH)",
+    "notes": "Polygon (MATIC) – Layer-2 integration"
+  }
+]
